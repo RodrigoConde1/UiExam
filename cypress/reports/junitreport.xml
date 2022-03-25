@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuites failures="1" errors="0" tests="4">
+  <testsuite name="Root Suite" timestamp="2022-03-25T09:59:58" tests="0" file="cypress/integration/ui-Automation-Test/uiAutomation.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="uiAutomation" timestamp="2022-03-25T09:59:58" tests="4" time="23.1160" failures="1">
+    <testcase name="uiAutomation test1" time="7.1970" classname="test1"/>
+    <testcase name="uiAutomation test2" time="4.9440" classname="test2"/>
+    <testcase name="uiAutomation test3" time="3.0980" classname="test3"/>
+    <testcase name="uiAutomation test4-fails example" time="0.0000" classname="test4-fails example">
+      <failure message="Timed out retrying after 4000ms: Expected &lt;input#userEmail.mr-sm-2.field-error.form-control&gt; not to exist in the DOM, but it was continuously found." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected <input#userEmail.mr-sm-2.field-error.form-control> not to exist in the DOM, but it was continuously found.
+    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\integration\ui-Automation-Test\uiAutomation.spec.js:179:44)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
